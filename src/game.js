@@ -2,10 +2,10 @@
 
 function createGame() {
 
-    const state = {
+    var state = {
         players: {},
         fruits: {},
-        screen : {
+        screen: {
             width: 10, height: 10
         }
     }
@@ -99,8 +99,7 @@ function createGame() {
         removePlayer,
         addFruit,
         removeFruit,
-        state,
-        screen
+        state
     }
 }
 
