@@ -16,6 +16,7 @@ function createKeyboardListener() {
         for (const observerFunction of state.observers) {
             observerFunction(command)
         }
+        
     }
 
     function handleKeyDown(event) {
