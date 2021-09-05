@@ -17,6 +17,7 @@
   },
   
   "scripts": {
-    "start": "webpack serve --hot --mode development"
+    "start": "webpack serve --hot --mode development",
+    "build": "webpack"
   }
 }

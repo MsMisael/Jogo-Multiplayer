@@ -1,6 +1,6 @@
 
 
-function createKeyboardListener() {
+function createKeyboardListener(document) {
     document.addEventListener('keydown', handleKeyDown)
 
     const state = {

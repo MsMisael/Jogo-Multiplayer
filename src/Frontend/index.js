@@ -16,7 +16,7 @@ game.addPlayer({
 
 const screen = createScreen(game)
 
-const keyboard = createKeyboardListener()
+const keyboard = createKeyboardListener(document)
 
 keyboard.subscribe(game.movePlayer)
 

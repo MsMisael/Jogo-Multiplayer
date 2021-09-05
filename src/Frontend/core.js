@@ -19,9 +19,6 @@ style.type = 'text/css'
 
 const canvas = document.createElement('canvas')
 canvas.id = 'screen'
-canvas.width = 10
-canvas.height = 10
-
 
 document.querySelector('head').appendChild(style)
 document.querySelector('body').appendChild(canvas)
